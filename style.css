@@ -43,7 +43,7 @@ footer {
 
 footer form {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
 }
 
 input[type="text"],
@@ -70,14 +70,6 @@ input[type="submit"], footer a {
 
 input[type="submit"]:hover, footer a:hover {
     background-color: #45a049;
-}
-
-input[type="submit"] {
-    margin-bottom: 1rem;
-}
-
-h1, h2, h3 {
-    color: #fff;
 }
 
 article {
