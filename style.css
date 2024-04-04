@@ -38,10 +38,11 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
 footer form {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -53,6 +54,8 @@ select {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
 }
 
 input[type="submit"], footer a {
@@ -62,8 +65,34 @@ input[type="submit"], footer a {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover, footer a:hover {
     background-color: #45a049;
+}
+
+
+h1, h2, h3 {
+    color: #333;
+}
+
+article {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    appearance: none; 
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="%23333" d="M7.999 14.586L3.707 10.293 2.293 11.707 8 17.414 15.707 9.707 14.293 8.293z"/></svg>'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
 }
