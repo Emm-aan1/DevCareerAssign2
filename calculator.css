@@ -28,6 +28,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .calculator button:hover {
@@ -62,6 +63,6 @@
     transition: background-color 0.3s ease;
 }
 
-.portfolio-link:hover {
+.about-me:hover {
     background-color: #ddd;
 }
