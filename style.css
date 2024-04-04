@@ -43,7 +43,7 @@ footer {
 
 footer form {
     width: 80%;
-    margin: 0 auto 1rem;
+    margin: 0 auto 2rem;
 }
 
 input[type="text"],
@@ -77,17 +77,4 @@ article {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-select {
-    appearance: none; 
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="%23333" d="M7.999 14.586L3.707 10.293 2.293 11.707 8 17.414 15.707 9.707 14.293 8.293z"/></svg>'); /* Custom arrow */
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    padding-right: 30px;
 }
