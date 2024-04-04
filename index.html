@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifeanyi Chidoka's Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Ifeanyi Chidoka</h1>
+        <nav>
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Job Experiences</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#skills">Other Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>About you...</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>University Name</h3>
+                <p>Degree: Bachelor of Science in Computer Science</p>
+                <p>Year: 20XX</p>
+            </article>
+            <!-- More education details can be added here -->
+        </section>
+
+        <section id="experience">
+            <h2>Job Experiences</h2>
+            <article>
+                <h3>Company Name</h3>
+                <p>Position: Software Developer</p>
+                <p>Duration: 20XX - 20XX</p>
+            </article>
+            <!-- More job experiences can be added here -->
+        </section>
+
+        <section id="hobby">
+            <h2>Hobby</h2>
+            <p>What you enjoy doing in your free time...</p>
+        </section>
+
+        <section id="skills">
+            <h2>Other Skills</h2>
+            <p>Additional skills you possess...</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Contact form from Assignment A3 -->
+        <form action="#" method="post">
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <label for="priority">Priority:</label><br>
+            <select id="priority" name="priority" required>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </footer>
+</body>
+</html>
